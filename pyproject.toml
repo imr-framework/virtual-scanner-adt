@@ -2,7 +2,7 @@
 name = "mri-digital-twin"
 version = "0.1.0"
 description = "Agentic Digital Twin of an MRI Scanner"
-authors = ["Your Name <you@example.com>"]
+authors = ["Sairam Geethanath <sairamgeethanath@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]

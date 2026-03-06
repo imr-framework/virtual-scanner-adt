@@ -1,20 +1,23 @@
-# MRI Digital Twin (Agentic Programming)
+# Virtual Scanner ADT
 
-This repository implements an agentic digital twin of an MRI scanner using modular agents for each hardware and software subsystem. The project is built using open-source tools and LangGraph for agent orchestration.
+Model-driven design platform for MRI magnet systems using agentic AI. This repository implements a multi-agent system for designing, simulating, and validating high-field magnet configurations.
 
-## Week 1 Goals
+## Overview
 
-- Initialize project folder structure
-- Create Vagrantfile and Poetry environment
-- Add README with project goals and architecture
-## Project Architecture Overview
+The project uses a modular agent architecture to orchestrate the complete magnet design workflow:
 
-The project is organized into modular components representing different MRI scanner subsystems. Each subsystem is encapsulated as an agent, allowing for independent development and testing. The main architectural components are:
+- **Design Planning**: Initial specification and requirement generation
+- **Design Generation**: Geometry and specification creation for magnet configurations
+- **Validation**: Field uniformity and performance verification
+- **Refinement**: Iterative design optimization
+- **Bill of Materials**: Component sourcing and costing
+- **Visualization**: 3D geometry and field distribution rendering
 
-- **agents/**: Contains agent modules for hardware (e.g., RF system, gradient coils) and software (e.g., image reconstruction, scheduling).
-- **orchestration/**: Implements agent coordination and communication using LangGraph.
-- **config/**: Stores configuration files for system parameters and environment settings.
-- **scripts/**: Utility scripts for setup, simulation, and testing.
-- **tests/**: Unit and integration tests for agents and orchestration logic.
+Each agent operates independently yet collaboratively to produce optimized, validated magnet designs.
 
-This modular structure supports scalability and ease of maintenance, enabling rapid prototyping and extension of new subsystems.
+## Project Structure
+
+- **agents/**: Core agent implementations
+  - `base_agent.py`: Base agent framework
+  - `magnetAgent/`: Halbach magnet design agents and orchestration
+- **notebooks/**: Demo and analysis notebooks

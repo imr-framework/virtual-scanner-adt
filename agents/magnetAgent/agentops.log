@@ -1,0 +1,6 @@
+2026-02-04 10:36:17,105 - WARNING - Could not wrap google.adk.telemetry.trace_tool_response: module 'google.adk.telemetry' has no attribute 'trace_tool_response'
+2026-02-04 10:36:17,105 - INFO - Google ADK patching complete
+2026-02-04 10:36:17,105 - INFO - Google ADK instrumentation enabled
+2026-02-04 10:36:17,105 - INFO - Session Replay for halbach-magnet-design-agent trace: https://app.agentops.ai/sessions?trace_id=12d43baeb29d0aa598dad744304ee42d
+2026-02-04 10:36:19,419 - INFO - You're on the agentops free plan 🤔
+2026-02-04 10:37:48,994 - INFO - Session Replay for halbach-magnet-design-agent.session trace: https://app.agentops.ai/sessions?trace_id=12d43baeb29d0aa598dad744304ee42d
